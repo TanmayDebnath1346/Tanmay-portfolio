@@ -1,0 +1,116 @@
+.projects {
+    background: #f5f2ee;
+    padding: 80px 0;
+    position: relative;
+}
+
+.projects .section-title {
+    color: #333;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.projects .section-title::after {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.projects-showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    height: auto;
+}
+
+.project-card {
+    border-radius: 25px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.project-content {
+    padding: 2rem;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title-3d {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.project-desc-3d {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.read-more {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s ease;
+    align-self: flex-start;
+}
+
+.read-more:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.project-video {
+    position: relative;
+    height: 200px;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.project-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-card:nth-child(1) {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.project-card:nth-child(2) {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.project-card:nth-child(3) {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.project-card:nth-child(4) {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.project-card:nth-child(5) {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+.project-card:nth-child(6) {
+    background: linear-gradient(135deg, #ee7752 0%, #e73c7e 100%);
+}
+
+.project-card:nth-child(7) {
+    background: linear-gradient(135deg, #23a6d5 0%, #23d5ab 100%);
+}
