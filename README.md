@@ -5,7 +5,7 @@
 [![GitHub license](https://img.shields.io/github/license/TanmayDebnath1346/Tanmay-portfolio)](https://github.com/TanmayDebnath1346/Tanmay-portfolio/blob/main/LICENSE)
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://tanmaydebnath1346.github.io/Tanmay-portfolio/)
 
-![Portfolio Banner](https://via.placeholder.com/1200x400?text=Welcome+to+Tanmay's+Portfolio)  
+![Portfolio Banner](profile_photo.png)  
 *(Replace with your actual banner image or screenshot)*
 
 Welcome to my personal portfolio website! This site showcases my skills, projects, experience, and journey as a developer. Built with modern web technologies, it's fully responsive and designed to highlight my work effectively.
